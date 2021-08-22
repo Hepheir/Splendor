@@ -1,0 +1,80 @@
+:root {
+  --side-bar-width: 240px;
+  --hand-height: 200px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background-image: url("./bg.jpg");
+  background-size: cover;
+
+  /* Temporarily Added */
+  color: white;
+}
+
+div.side-bar-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: var(--side-bar-width);
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+div.game-area-container {
+  width: 100%;
+  height: 100%;
+
+  padding-left: var(--side-bar-width);
+  padding-right: var(--side-bar-width);
+}
+
+  div.game-area {
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+  }
+
+  div.game-area div.table {
+    width: 100%;
+    height: 100%;
+
+    padding-bottom: var(--hand-height);
+  }
+
+  div.game-area div.hand {
+    width: 100%;
+    height: var(--hand-height);
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+  }
+
+div.side-bar-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: var(--side-bar-width);
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.2);
+}
