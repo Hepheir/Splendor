@@ -1,0 +1,19 @@
+{
+  "name": "splendor",
+  "version": "1.0.0-alpha.0",
+  "description": "온라인으로 즐기는 스플렌더 게임",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hepheir/Splendor.git"
+  },
+  "author": "Hepheir <hepheir@gmail.com>",
+  "license": "GNU GPLv3",
+  "bugs": {
+    "url": "https://github.com/Hepheir/Splendor/issues"
+  },
+  "homepage": "https://github.com/Hepheir/Splendor#readme"
+}
