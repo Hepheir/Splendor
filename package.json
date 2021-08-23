@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Hepheir/Splendor/issues"
   },
-  "homepage": "https://github.com/Hepheir/Splendor#readme"
+  "homepage": "https://github.com/Hepheir/Splendor#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "styled-components": "^5.3.0"
+  }
 }

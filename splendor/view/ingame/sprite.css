@@ -1,0 +1,131 @@
+.token {
+  border-radius: 50%;
+
+  background-size: 600% 100%;
+  background-image: url(./tokens.png);
+
+  opacity: 1;
+
+  font-family: Courgette;
+  text-align: center;
+}
+
+    .token.empty {
+    opacity: 0;
+    }
+
+    .token.type_emerald {
+    background-position: 0 0;
+    }
+
+    .token.type_diamond {
+    background-position: -100% 0;
+    }
+
+    .token.type_sapphire {
+    background-position: -200% 0;
+    }
+
+    .token.type_onyx {
+    background-position: -300% 0;
+    }
+
+    .token.type_ruby {
+    background-position: -400% 0;
+    }
+
+    .token.type_gold {
+    background-position: -500% 0;
+    }
+
+.numbers_sheet {
+    width: 27.983px;
+    height: 27.983px;
+
+    background-size: 1000% 300%;
+    background-position: -900% 0;
+    background-image: url('numbers_sheet.png');
+}
+    .numbers_sheet.card_bg {
+        background-position-y: 0;
+    }
+
+        .numbers_sheet.card_bg:
+
+        .numbers_sheet.card_bg.type_onyx {
+            background-position-x: 0;
+        }
+
+        .numbers_sheet.card_bg.type_diamond {
+            background-position-x: -100%;
+        }
+
+        .numbers_sheet.card_bg.type_sapphire {
+            background-position-x: -200%;
+        }
+
+        .numbers_sheet.card_bg.type_emerald {
+            background-position-x: -300%;
+        }
+
+        .numbers_sheet.card_bg.type_ruby {
+            background-position-x: -400%;
+        }
+
+    .numbers_sheet.number {
+        background-position-y: -200%;
+        border-radius: 50%;
+    }
+
+        .numbers_sheet.number[data-number="0"] {
+            background-position-x: -900%;
+            background-position-y: 0;
+        }
+
+        .numbers_sheet.number[data-number="1"] {
+            background-position-x: 0;
+        }
+
+        .numbers_sheet.number[data-number="2"] {
+            background-position-x: -100%;
+        }
+
+        .numbers_sheet.number[data-number="3"] {
+            background-position-x: -200%;
+        }
+
+        .numbers_sheet.number[data-number="4"] {
+            background-position-x: -300%;
+        }
+
+        .numbers_sheet.number[data-number="5"] {
+            background-position-x: -400%;
+        }
+
+        .numbers_sheet.number[data-number="6"] {
+            background-position-x: -500%;
+        }
+
+        .numbers_sheet.number[data-number="7"] {
+            background-position-x: -600%;
+        }
+
+        .numbers_sheet.number[data-number="8"] {
+            background-position-x: -700%;
+        }
+
+        .numbers_sheet.number[data-number="9"] {
+            background-position-x: -800%;
+        }
+
+        .numbers_sheet.number[data-number="10"] {
+            background-position-x: -900%;
+        }
+
+        .numbers_sheet.number[data-number="11"] {
+            background-position-x: -900%;
+        }
+
+        .numbers_sheet.number[data-number="12"] {
+            background-position-x: -900%;
+        }
